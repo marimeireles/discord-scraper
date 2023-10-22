@@ -16,9 +16,7 @@ A Python script that uses `discord.py` to collect all messages from a specified 
     ```
     pip install discord.py
     ```
-    
-3. `pip install discord.py`
-4. **Clone this repository** or download the script.
+3. **Clone this repository** or download the script.
 
 ## Setup
 
@@ -32,10 +30,6 @@ A Python script that uses `discord.py` to collect all messages from a specified 
     - Under "OAuth2 URL Generator", select "bot" in the scopes section.
     - Choose the necessary permissions (at minimum, "Read Messages").
     - Copy the generated URL and use it to invite the bot to your server.
-3. **Configure the Script**:
-    - Open the Python script and replace `'Your Server Name'` with the name of your Discord server.
-    - Replace `'general'` with the name of the channel from which you want to collect messages.
-    - Replace `'YOUR_BOT_TOKEN'` with the token you copied earlier.
 
 ## Usage
 
@@ -46,5 +40,9 @@ A Python script that uses `discord.py` to collect all messages from a specified 
     python discord_scraper.py
     ```
     
-3. `python your_script_name.py`
-4. The script will print all messages from the specified channel to the console. You can modify the script to save these messages to a file if needed.
+3. The script will prompt you to enter the name of the Discord server and the bot token.
+    - For the server name, enter the name of the Discord server you want to collect messages from.
+    - For the bot token, paste the token you copied earlier.
+4. Check the Output
+    - The script will save all messages from each text channel to a separate text file, named after the channel (e.g., `general_messages.txt`, `random_messages.txt`, etc.).
+    - Messages that could not be accessed will be reported in the console.
