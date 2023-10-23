@@ -30,6 +30,10 @@ A Python script that uses `discord.py` to collect all messages from a specified 
     - Under "OAuth2 URL Generator", select "bot" in the scopes section.
     - Choose the necessary permissions (at minimum, "Read Messages").
     - Copy the generated URL and use it to invite the bot to your server.
+2. **Activate "Message Content Intent"**:
+   - Go to the "Bot" session
+   - Scroll down in the "Privileged Gateway Intents" area
+   - Activate "Message Content Intent"
 
 ## Usage
 
