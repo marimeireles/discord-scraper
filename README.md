@@ -25,15 +25,15 @@ A Python script that uses `discord.py` to collect all messages from a specified 
     - Click "New Application" and give it a name.
     - Navigate to the "Bot" tab and click "Add Bot".
     - Under the "TOKEN" section, click "Copy" to copy your bot token.
-2. **Invite the Bot to Your Server**:
-    - Go to the "OAuth2" tab in your bot's application page.
-    - Under "OAuth2 URL Generator", select "bot" in the scopes section.
-    - Choose the necessary permissions (at minimum, "Read Messages").
-    - Copy the generated URL and use it to invite the bot to your server.
 2. **Activate "Message Content Intent"**:
-   - Go to the "Bot" session
+   - Still in the same "Bot" session
    - Scroll down in the "Privileged Gateway Intents" area
    - Activate "Message Content Intent"
+3. **Invite the Bot to Your Server**:
+    - Go to the "OAuth2" tab in your bot's application page.
+    - Under "URL Generator", select "bot" in the scopes section.
+    - Choose the necessary permissions (at minimum, "Read Messages").
+    - Copy the generated URL and use it to invite the bot to your server.
 
 ## Usage
 
